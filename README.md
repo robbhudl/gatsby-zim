@@ -12,9 +12,9 @@ This is the Gatsy starter template. I want to integrate ZIM (https://zimjs.com/)
 
 To-Do:
 
-* import create.js and zim.js in the rigth place
+* import create.js and zim.js in the rigth place (both are in the node-modules - see comments in the code)
 * check the zimcontainer.js
-* MAKE <Zimcontainer/> on page-2 work! 
+* MAKE Zimcontainer on page-2 work! 
 
 This might be a helpful article: [how to import xy to React](https://itnext.io/how-to-use-plain-three-js-in-your-react-apps-417a79d926e0)
 
