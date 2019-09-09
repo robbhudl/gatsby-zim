@@ -2,14 +2,19 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+
+// import "../../node_modules/@danzen/createjs/create"
+// import "../../node_modules/zimjs/zim"
+
+import Zimcontainer from "../components/zimcontainer"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <h3>ZIM to come here:</h3>
+
+    <Zimcontainer></Zimcontainer>
+    
+    <Link to="/">Back to home</Link>
   </Layout>
 )
 
