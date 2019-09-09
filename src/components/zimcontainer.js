@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import "../../node_modules/@danzen/createjs/create"
 import "../../node_modules/zimjs/zim"
 
-// ZIM and CreateJS are imported in the main script...
+// CreateJS (create.js) and ZIM (zim.js) should be imported in the main script... ...but how?
 
 export default class ZIMContainer extends Component {
   componentDidMount() {
@@ -17,8 +17,8 @@ export default class ZIMContainer extends Component {
 
       const stageH = frame.height
 
-      // code here
-      new Circle(60, "red").center();
+      // ZIM code here
+      new Circle(60, "red").center().drag();
 
       stage.update()
     })
